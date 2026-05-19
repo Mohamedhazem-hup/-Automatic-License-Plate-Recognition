@@ -1,0 +1,7 @@
+﻿path: C:\cv project 11\data-20251215T033328Z-1-001\data
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1
+names: ['license_plate']
