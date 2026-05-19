@@ -28,6 +28,17 @@ Improve accuracy in low-light conditions
 Support multiple countries plate formats
 Real-time deployment with web interface (Streamlit / Flask)
 👨‍💻 Author
+OCR Image
+   ↓
+Extract Text
+   ↓
+Merge Parts
+   ↓
+Remove Symbols
+   ↓
+Fix OCR Errors
+   ↓
+Return Plate Number
 <img width="317" height="688" alt="Screenshot 2026-05-18 091353" src="https://github.com/user-attachments/assets/2fb25dcc-73ec-43d0-808f-4f4554442fa7" />
 
 Developed by Mohammed Hazem
