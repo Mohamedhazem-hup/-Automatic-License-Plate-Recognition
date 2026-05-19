@@ -1,44 +1,87 @@
-🚗 Automatic License Plate Recognition (ALPR)
-📌 Description
+# 🚗 Automatic License Plate Recognition (ALPR)
 
-This project is an Automatic License Plate Recognition (ALPR) system that detects vehicles and extracts license plate numbers from images and videos using Deep Learning and Computer Vision techniques.
+An AI-powered Automatic License Plate Recognition system using YOLO and OCR to detect and extract vehicle plate numbers from images and videos in real time.
 
-The system uses a trained object detection model (such as YOLO) to locate license plates, followed by OCR (Optical Character Recognition) to extract the text from the detected plates.
+---
 
-⚙️ Features
-🚗 Detects vehicles and license plates in real-time
-🔍 High-accuracy object detection using YOLO
-🧠 OCR-based text extraction from plates
-📸 Works on images and video streams
-💾 Outputs recognized plate numbers in structured format
-🧠 Technologies Used
-Python
-OpenCV
-YOLO (Ultralytics)
-EasyOCR / Tesseract
-Deep Learning
-📊 Workflow
-Input image/video
-Detect license plate using YOLO
-Crop detected plate region
-Apply OCR to extract text
-Display/store result
-🚀 Future Improvements
-Improve accuracy in low-light conditions
-Support multiple countries plate formats
-Real-time deployment with web interface (Streamlit / Flask)
-👨‍💻 Author
-OCR Image
-   ↓
-Extract Text
-   ↓
-Merge Parts
-   ↓
-Remove Symbols
-   ↓
-Fix OCR Errors
-   ↓
-Return Plate Number
-<img width="317" height="688" alt="Screenshot 2026-05-18 091353" src="https://github.com/user-attachments/assets/2fb25dcc-73ec-43d0-808f-4f4554442fa7" />
+## 📌 Features
 
-Developed by Mohammed Hazem
+- 🚘 Vehicle & license plate detection
+- 🔍 OCR text extraction
+- ⚡ Real-time processing
+- 🧠 Deep Learning based detection
+- 📷 Supports images and videos
+- 💾 Accurate plate number recognition
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- OpenCV
+- YOLO (Ultralytics)
+- EasyOCR
+- NumPy
+
+---
+
+## 📂 Project Structure
+
+```bash
+project/
+│── data/
+│── models/
+│── src/
+│── runs/
+│── app.py
+│── requirements.txt
+│── README.md
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Automatic-License-Plate-Recognition.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Project
+
+```bash
+python app.py
+```
+
+---
+
+## 📸 Workflow
+
+1. Detect license plate using YOLO  
+2. Crop detected plate  
+3. Apply OCR  
+4. Extract and display text  
+
+---
+
+## 🎯 Future Improvements
+
+- Improve OCR accuracy
+- Support Arabic plates
+- Deploy with Streamlit
+- Real-time webcam support
+
+
+
+ 👨‍💻 Author
+
+Mohamed Hazem
